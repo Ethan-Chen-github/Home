@@ -63,6 +63,7 @@ const App = () => (
           <Link href="#Resume" title="Resume" className = 'link'/>
           <Link href="#ContactMe" title="Contact Me" className = 'link'/>
         </Anchor>
+        <Divider type="vertical" style={{ height: "100%" }} />
     </Sider>
     <Layout>
       <Content style={{ margin: "10px 20px 0" }}>
