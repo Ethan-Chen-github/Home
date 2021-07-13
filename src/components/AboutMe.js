@@ -2,7 +2,7 @@ import React from "react";
 import { Timeline, Icon } from "antd";
 import { Layout } from "antd";
 import { Typography } from "antd";
-import feyu from "../images/feyu.jpg";
+import ethan from "../images/ethan.jpg";
 import csg from "../images/csg.png";
 import ecomm from "../images/e-comm.png";
 import MMA from "../images/MMA.png";
@@ -23,7 +23,7 @@ export default function AboutMe(props) {
     style={{ padding: 24, minHeight: 360 }}
   >
       <Title style={{ textAlign: "center" }}>About Me</Title>
-      <img src={feyu} alt="Avatar" class="prof_picture"></img>
+      <img src={ethan} alt="Avatar" class="prof_picture"></img>
       <Typography className="typolog">
         <Title>Ethan Chen</Title>
         <Paragraph className="self_intro">

@@ -63,7 +63,6 @@ const App = () => (
           <Link href="#Resume" title="Resume" className = 'link'/>
           <Link href="#ContactMe" title="Contact Me" className = 'link'/>
         </Anchor>
-        <Divider type="vertical" style={{ height: "100%" }} />
     </Sider>
     <Layout>
       <Content style={{ margin: "10px 20px 0" }}>
@@ -91,9 +90,10 @@ const App = () => (
       <Footer style={{ textAlign: "center" , minHeight: 360}}>
         @2022 Created by Ethan Chen
       </Footer>
-      <BackTop />
     </Layout>
+    {/* <BackTop /> */}
   </Layout>
+  
 );
 
 export default App;
