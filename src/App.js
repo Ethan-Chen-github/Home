@@ -13,6 +13,7 @@ import {
   Divider,
   Anchor,
   Affix,
+  BackTop 
 } from "antd";
 import "./App.less";
 import {
@@ -49,12 +50,11 @@ const App = () => (
       }}
     >
       <img src={Github} id='Github_Logo'/>
-      <Affix offsetTop={-20}>
         <Title level={5} style={{ textAlign: "center", paddingTop: "35px" }}>
           Quick Access
         </Title>
         <Divider />
-        <Anchor style={{ paddingLeft: "24px" }} affix={false}>
+        <Anchor style={{ paddingTop:'20px',paddingLeft: "24px" }} affix={true}>
           <Link href="#AboutMe" title="About Me" className = 'link'/>
           <Link href="#ConnectWithMe" title="Connect with me" className='link'/>
           <Link href="#Experience" title="Experience" className = 'link'/>
@@ -63,7 +63,6 @@ const App = () => (
           <Link href="#Resume" title="Resume" className = 'link'/>
           <Link href="#ContactMe" title="Contact Me" className = 'link'/>
         </Anchor>
-      </Affix>
     </Sider>
     <Layout>
       <Content style={{ margin: "10px 20px 0" }}>
@@ -89,8 +88,9 @@ const App = () => (
           <ContactMe />
       </Content>
       <Footer style={{ textAlign: "center" , minHeight: 360}}>
-        Ant Design ©2018 Created by Ant UED
+        @2022 Created by Ethan Chen
       </Footer>
+      <BackTop />
     </Layout>
   </Layout>
 );

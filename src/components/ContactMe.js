@@ -22,6 +22,8 @@ export default function ContactMe(props) {
       style={{ padding: 24, minHeight: 360 }}
     >
       <Title style={{ textAlign: "center" }}>ContactMe</Title>
+      <Title level={4} style={{ textAlign: "center" }}><a href = "mailto: ethanchen100598@gmail.com">ethanchen100598@gmail.com</a></Title>
+
       <br />
     </div>
   );
