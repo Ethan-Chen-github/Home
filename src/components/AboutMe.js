@@ -24,14 +24,15 @@ export default function AboutMe(props) {
   >
       <Title style={{ textAlign: "center" }}>About Me</Title>
       <img src={ethan} alt="Avatar" class="prof_picture"></img>
-      <Typography className="typolog">
+      <div style={{textAlign:'center'}}>
+      <Typography className="typolog" >
         <Title>Ethan Chen</Title>
         <Paragraph className="self_intro">
-          My name is Fenghsi Yu. Completed both Master and Bachelor degrees at
-          Stony Brook University. I'm currently a full-time software developer
-          at General Motors in Arizona .
+          Hi! My name is Ethan Chen. I Completed Bachelor degrees at
+          Stony Brook University. I'm currently a Master Student at Stony Brook University .
         </Paragraph>
       </Typography>
+      </div>
     </div>
     <div style={{  minHeight: 14 }}></div>
     </>
