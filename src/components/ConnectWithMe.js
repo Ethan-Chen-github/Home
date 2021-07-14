@@ -13,7 +13,7 @@ import webgen from "../images/Webgen.png";
 import { Card, Col, Row, Space } from "antd";
 import Github from "../images/github.png";
 import Linkedin from "../images/linkedin.png";
-
+import { Divider } from "antd";
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
 const { Panel } = Collapse;
@@ -31,19 +31,18 @@ export default function ConnectWithMe(props) {
         style={{ padding: 24, minHeight: 450 }}
       >
         <Title style={{ textAlign: "center" }}>ConnectWithMe</Title>
-
-          <a href="https://github.com/Ethan-Chen-github">
-            <Card.Grid style={gridStyle} className="socialMedia">
-              <img alt="example" id="Github_Logo" src={Github} />
-              <Meta title="Github" description="www.instagram.com" />
-            </Card.Grid>
-          </a>
-          <a href="https://www.linkedin.com/in/ethan-chen-sbu/">
-            <Card.Grid style={gridStyle} className="socialMedia">
-              <img alt="example" id="Github_Logo" src={Linkedin} />
-              <Meta title="LinkedIn" description="www.instagram.com" />
-            </Card.Grid>
-          </a>
+        <a href="https://github.com/Ethan-Chen-github">
+          <Card.Grid style={gridStyle} className="socialMedia">
+            <img alt="example" id="Github_Logo" src={Github} />
+            <Meta title="Github" description="www.instagram.com" />
+          </Card.Grid>
+        </a>
+        <a href="https://www.linkedin.com/in/ethan-chen-sbu/">
+          <Card.Grid style={gridStyle} className="socialMedia">
+            <img alt="example" id="Github_Logo" src={Linkedin} />
+            <Meta title="LinkedIn" description="www.instagram.com" />
+          </Card.Grid>
+        </a>
       </div>
       <div style={{ minHeight: 14 }}></div>
     </>
