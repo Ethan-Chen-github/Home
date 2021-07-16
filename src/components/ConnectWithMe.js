@@ -30,19 +30,21 @@ export default function ConnectWithMe(props) {
         className="site-layout-background"
         style={{ padding: 24, minHeight: 450 }}
       >
-        <Title style={{ textAlign: "center" }}>ConnectWithMe</Title>
-        <a href="https://github.com/Ethan-Chen-github">
-          <Card.Grid style={gridStyle} className="socialMedia">
-            <img alt="example" id="Github_Logo" src={Github} />
-            <Meta title="Github" description="www.instagram.com" />
-          </Card.Grid>
-        </a>
-        <a href="https://www.linkedin.com/in/ethan-chen-sbu/">
-          <Card.Grid style={gridStyle} className="socialMedia">
-            <img alt="example" id="Github_Logo" src={Linkedin} />
-            <Meta title="LinkedIn" description="www.instagram.com" />
-          </Card.Grid>
-        </a>
+        <Title style={{ textAlign: "center" }}>Connect With Me</Title>
+        <div style={{paddingLeft:'33%'}}>
+          <a href="https://github.com/Ethan-Chen-github">
+            <Card.Grid style={gridStyle} className="socialMedia">
+              <img alt="example" id="Github_Logo" src={Github} />
+              <Meta title="Github" description="www.instagram.com" />
+            </Card.Grid>
+          </a>
+          <a href="https://www.linkedin.com/in/ethan-chen-sbu/">
+            <Card.Grid style={gridStyle} className="socialMedia">
+              <img alt="example" id="Github_Logo" src={Linkedin} />
+              <Meta title="LinkedIn" description="www.instagram.com" />
+            </Card.Grid>
+          </a>
+        </div>
       </div>
       <div style={{ minHeight: 14 }}></div>
     </>

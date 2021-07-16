@@ -25,9 +25,15 @@ export default function Resume(props) {
         style={{ padding: 24, minHeight: 360 }}
       >
         <Title style={{ textAlign: "center" }}>Resume</Title>
-        <div id ='resume' >
-        {/* <iframe frameBorder="0" id = 'resume'  width='100%' height='1000px' src="https://docs.google.com/document/d/e/2PACX-1vTi0LcIdMfKrXUUPNKByJlqNYK57Fp70hyethhbeFDwcIZ4IsSeOTjx2S8HoPbmwniW12QCFuGNnBIW/pub?embedded=true"></iframe> */}
-      </div>
+        <div id="resume">
+          <iframe
+            frameBorder="0"
+            id="resume"
+            width="880px"
+            height="1000px"
+            src="https://docs.google.com/document/d/e/2PACX-1vTi0LcIdMfKrXUUPNKByJlqNYK57Fp70hyethhbeFDwcIZ4IsSeOTjx2S8HoPbmwniW12QCFuGNnBIW/pub?embedded=true"
+          ></iframe>
+        </div>
         {/* <Iframe
           url="https://docs.google.com/document/d/e/2PACX-1vTi0LcIdMfKrXUUPNKByJlqNYK57Fp70hyethhbeFDwcIZ4IsSeOTjx2S8HoPbmwniW12QCFuGNnBIW/pub?embedded=true"
           width="100%"
